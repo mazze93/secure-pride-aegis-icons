@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+  <!-- Background fill -->
+  <circle cx="12" cy="12" r="10.5" fill="#00e676" opacity="0.12"/>
+  <!-- Border ring -->
+  <circle cx="12" cy="12" r="10.5" stroke="#00e676" stroke-width="1" opacity="0.3"/>
+  <!-- Checkmark -->
+  <path d="M7.5 12l3 3.5L16.5 9"
+        stroke="#00e676" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

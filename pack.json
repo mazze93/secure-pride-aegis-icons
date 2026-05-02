@@ -1,0 +1,61 @@
+{
+  "name": "@secure-pride/aegis-icons",
+  "version": "0.1.0",
+  "description": "Iconography and visual trust primitives for Secure Pride interfaces",
+  "homepage": "https://github.com/mazze93/secure-pride-aegis-icons",
+  "license": "MIT",
+  "designTokens": {
+    "colors": {
+      "pass":    "#00e676",
+      "warn":    "#ffd600",
+      "fail":    "#ff2d95",
+      "scan":    "#06d6e0",
+      "violet":  "#b24bf3",
+      "surface": "#111128"
+    },
+    "viewBoxes": {
+      "brand":  "0 0 64 64",
+      "status": "0 0 24 24"
+    }
+  },
+  "icons": {
+    "brand": [
+      {
+        "id": "shield-padlock",
+        "file": "icons/brand/shield-padlock.svg",
+        "description": "Primary brand mark — shield with padlock, rainbow gradient on dark background"
+      },
+      {
+        "id": "shield-padlock-mono",
+        "file": "icons/brand/shield-padlock-mono.svg",
+        "description": "Monochrome outline using currentColor — adapts to any surface or single-color context"
+      }
+    ],
+    "status": [
+      {
+        "id": "pass",
+        "file": "icons/status/pass.svg",
+        "color": "#00e676",
+        "description": "Secure / success state — green checkmark in circle"
+      },
+      {
+        "id": "warn",
+        "file": "icons/status/warn.svg",
+        "color": "#ffd600",
+        "description": "Warning / degraded state — amber exclamation in triangle"
+      },
+      {
+        "id": "fail",
+        "file": "icons/status/fail.svg",
+        "color": "#ff2d95",
+        "description": "Failure / blocked state — magenta X in circle"
+      },
+      {
+        "id": "scan",
+        "file": "icons/status/scan.svg",
+        "color": "#06d6e0",
+        "description": "Active scan / in-progress state — cyan radar sweep"
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+  <!-- Shield outline — uses currentColor so it adapts to any surface -->
+  <path d="M32 6L10 17v15c0 13 9.5 24.5 22 28 12.5-3.5 22-15 22-28V17L32 6z"
+        stroke="currentColor" stroke-width="2.5"/>
+
+  <!-- Padlock body -->
+  <rect x="22" y="30" width="20" height="16" rx="3"
+        stroke="currentColor" stroke-width="2"/>
+
+  <!-- Padlock shackle -->
+  <path d="M26 30v-5a6 6 0 0 1 12 0v5"
+        stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Keyhole -->
+  <circle cx="32" cy="37" r="2.5" fill="currentColor"/>
+  <rect x="31" y="37" width="2" height="4" rx="1" fill="currentColor"/>
+</svg>
